@@ -4,17 +4,19 @@ services:
     container_name: jellyfin
     user: 1000:1000
     network_mode: 'host'
+    devices:
+      - /dev/dri:/dev/dri
     volumes:
       - /srv/docker/jellyfin/config:/config
       - /srv/docker/jellyfin/cache:/cache
       - type: bind
         source: /mnt/zvalbard/plex/movies
         target: /movies
-        read_only: true
+#        read_only: true
       - type: bind
         source: /mnt/zvalbard/plex/tv
         target: /tv
-        read_only: true
+#        read_only: true
       # # Optional - extra fonts to be used during transcoding with subtitle burn-in
       # - type: bind
       #   source: /path/to/fonts
