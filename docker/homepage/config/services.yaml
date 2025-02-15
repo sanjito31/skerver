@@ -1,0 +1,5 @@
+- Media:
+  - Plex:
+      icon: plex.png
+      href: http://74.63.242.199:42069
+      description: Plex Server

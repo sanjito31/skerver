@@ -1,0 +1,41 @@
+[2025-02-15T00:18:48.325Z] info: docker.yaml was copied to the config folder
+[2025-02-15T00:18:48.326Z] info: services.yaml was copied to the config folder
+[2025-02-15T00:18:48.326Z] info: bookmarks.yaml was copied to the config folder
+[2025-02-15T00:18:48.329Z] info: widgets.yaml was copied to the config folder
+[2025-02-15T00:18:48.329Z] info: custom.css was copied to the config folder
+[2025-02-15T00:18:48.330Z] info: custom.js was copied to the config folder
+[2025-02-15T00:18:48.346Z] info: kubernetes.yaml was copied to the config folder
+[2025-02-15T00:31:24.165Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T00:31:24.225Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T00:31:24.413Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T03:32:35.873Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T03:34:19.902Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:00:28.604Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:00:29.769Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:00:31.822Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:00:32.013Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:00:41.437Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:01:12.990Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:01:37.021Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:01:37.024Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:01:37.162Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:01:45.361Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:05:58.543Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:05:58.959Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:05:59.048Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:06:03.879Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:07:09.107Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:07:09.406Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:07:09.643Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:09:55.472Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:09:55.896Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:09:56.200Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:10:26.339Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:10:34.143Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:13:43.244Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:13:43.251Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:13:43.426Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:14:33.080Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:14:33.088Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:14:33.238Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.
+[2025-02-15T04:14:40.218Z] warn: <service-helpers> Error parsing service "Plex" from config. Ensure required fields are present.

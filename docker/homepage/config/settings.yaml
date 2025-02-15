@@ -1,0 +1,16 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+title: skerver homepage
+
+background:
+  image: https://upload.wikimedia.org/wikipedia/commons/c/c7/Carina_Nebula_composite_of_visible_and_infrared_light_%28captured_by_the_Hubble_Space_Telescope%29.jpg
+  blur: sm
+  saturate: 75
+  brightness: 50
+  opacity: 50
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
