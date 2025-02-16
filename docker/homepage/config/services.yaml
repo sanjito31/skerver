@@ -1,5 +1,9 @@
 - Media:
   - Plex:
       icon: plex.png
-      href: http://74.63.242.199:42069
-      description: Plex Server
+      href: http://sanjck.com:42069
+#      description: Plex Server
+  - Jellyfin:
+      icon: jellyfin.png
+#      href: http://74.64.242.199:58035
+      href: jellyfin

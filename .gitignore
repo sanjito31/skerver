@@ -1,3 +1,4 @@
 /docker/plex/config
 /docker/jellyfin/config
 /docker/jellyfin/cache
+/docker/nginx/config/log
