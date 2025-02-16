@@ -6,4 +6,5 @@
   - Jellyfin:
       icon: jellyfin.png
 #      href: http://74.64.242.199:58035
-      href: jellyfin
+#      href: jellyfin
+      href: http://sanjck.com/jellyfin
