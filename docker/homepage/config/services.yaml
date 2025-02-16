@@ -1,7 +1,7 @@
 - Media:
   - Plex:
       icon: plex.png
-      href: http://sanjck.com:42069
+      href: plex
 #      description: Plex Server
   - Jellyfin:
       icon: jellyfin.png
