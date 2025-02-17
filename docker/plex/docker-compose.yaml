@@ -16,4 +16,6 @@ services:
       - /mnt/zvalbard/plex/movies:/movies
     devices:
       - /dev/dri:/dev/dri
+    ports:
+      - 32400:32400
     restart: unless-stopped

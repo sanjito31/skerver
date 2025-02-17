@@ -1,0 +1,15 @@
+services:
+  samba:
+    image: dockurr/samba
+    container_name: samba
+    environment:
+      NAME: "zvalbard-samba"
+      USER: "sanjaykumar"
+      PASS: "secret31"
+      UID: "1000"
+      GID: "1000"
+    ports:
+      - 445:445
+    volumes:
+      - /mnt/zvalbard:/storage
+    restart: always
