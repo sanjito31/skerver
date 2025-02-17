@@ -5229,3 +5229,5 @@
 162.158.154.167 - - [17/Feb/2025:03:11:06 +0000] "GET /api/widgets/resources?type=memory HTTP/2.0" 200 290 "https://sanjck.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0"
 162.158.154.167 - - [17/Feb/2025:03:11:06 +0000] "GET /api/widgets/resources?type=disk&target=/ HTTP/2.0" 304 0 "https://sanjck.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0"
 193.68.89.10 - - [17/Feb/2025:03:11:17 +0000] "GET / HTTP/1.1" 200 11816 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46"
+172.71.127.126 - - [17/Feb/2025:03:17:40 +0000] "GET / HTTP/2.0" 200 11796 "-" "python-requests/2.32.3"
+172.71.127.125 - - [17/Feb/2025:03:17:40 +0000] "GET / HTTP/2.0" 200 11796 "-" "python-requests/2.32.3"

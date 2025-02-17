@@ -2,3 +2,4 @@
 /docker/jellyfin/config
 /docker/jellyfin/cache
 /docker/nginx/config/log
+*.log
