@@ -3,3 +3,7 @@
 /docker/jellyfin/cache
 /docker/nginx/config/log
 *.log
+source
+target
+count.c
+*.txt
