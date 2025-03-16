@@ -24,7 +24,8 @@ for sub_dir in "$SOURCE"/*/; do
     if [ -d "$sub_dir" ]; then
         folder="$(basename "$sub_dir")"
         source_count=$(ls -1 "$sub_dir" | wc -l)
-        target_count=$(ls -1 ""$TARGET"/"$folder"/" | wc -l)
+        path=""$TARGET"/"$folder"/"
+        target_count=$(ls -1 "$path" | wc -l)
 
         if [ $source_count -ne $target_count ]; then
             ne_dirs+=("$folder")
@@ -34,16 +35,18 @@ done
 
 for dirs in "${ne_dirs[@]}"; do
     source_path=""$SOURCE"/"$dirs""
-    echo "##### "$dirs" #####" >> "$output"
+    # echo "##### "$dirs" #####" >> "$output"
     for file in "$source_path"/*; do
         name=$(basename "$file")
         target_file=""$TARGET"/"$dirs"/"$name""
         if [ ! -e "$target_file" ]; then
-            echo ""$target_file" does not exist" >> "$output"
-            # cp "$source_path"/"$name" "$target_file"
+            # echo ""$target_file" does not exist" >> "$output"
+            source_file=""$source_path"/"$name""
+            target_path=""$TARGET"/"$dirs""
+            cp -r "$source_file" "$target_path"
         fi
     done
-    echo >> "$output"
+    # echo >> "$output"
 done
 
 # for sub_dir in "$TARGET"/*/; do
