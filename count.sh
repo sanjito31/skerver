@@ -1,6 +1,7 @@
 #!/bin/bash
 
 DIR="$1"
+output="output.txt"
 
 if [ ! -d "$DIR" ]; then
     echo "Not a directory"
@@ -19,8 +20,8 @@ for sub_dir in "$DIR"/*/; do
 done
 
 for dir in "${directories[@]}"; do
-    echo -n ""$(basename "$dir")": "
-    ls -1 "$dir" | wc -l
+    echo -n ""$(basename "$dir")": " >> "$output"
+    ls -1 "$dir" | wc -l >> "$output"
     # echo
 done
 
